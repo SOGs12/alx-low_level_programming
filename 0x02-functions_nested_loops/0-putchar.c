@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: Prints "_purchar" followed by a new line
+ * 
  * Return: Always 0 (Success)
  */
 

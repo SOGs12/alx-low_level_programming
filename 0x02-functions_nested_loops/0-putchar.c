@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point
- * Return: Always 0
+ * Description: Prints "_purchar" followed by a new line
+ * Return: Always 0 (Success)
  */
 
 int main(void)

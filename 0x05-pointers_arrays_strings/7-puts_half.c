@@ -14,21 +14,21 @@ void puts_half(char *str)
 
 	while (str[j] != '\0')
 	{
-	j++;
+		j++
 	}
 
 	if (j % 2 == 1)
 	{
-	k = j / 2;
+		k= j / 2;
 	}
 	else
 	{
-	k = (j + 1) / 2;
+		k= (j + 1) / 2;
 	}
 
 	for (; str[k] != '\0'; k++)
 	{
-	_putchar(str[k]);
+		_putchar(str[k]);
 	}
 	_putchar('\n');
 }

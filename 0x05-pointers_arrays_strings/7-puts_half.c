@@ -13,8 +13,9 @@ void puts_half(char *str)
 	int k;
 
 	while (str[j] != '\0')
+	{
 	j++;
-	
+	}
 	if (j % 2 == 1)
 	{
 	k = j / 2;
@@ -26,5 +27,5 @@ void puts_half(char *str)
 	{
 	_putchar(str[k]);
 	}
-	_putchar('\0');
+	_putchar('\n');
 }

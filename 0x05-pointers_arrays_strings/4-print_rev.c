@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_rev - inprint on reversa
- * @s: string
- * Return: 0
+ * print_rev - Prints a string in reversa
+ * @s: The string to print
+ * Return: void
  */
 void print_rev(char *s)
 {

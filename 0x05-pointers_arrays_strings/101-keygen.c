@@ -10,7 +10,7 @@
  */
 
 int main(void)
-	
+
 {
 	char password[64];
 	int index = 0, sum = 0, diff_half1, diff_half2;

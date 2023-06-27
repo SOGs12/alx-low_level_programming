@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -23,9 +24,9 @@ int main(void)
 		sum += password[index++];
 	}
 
-	password[index] = '\0;
+	password[index] = '\0';
 
-	if (sum !=2772)
+	if (sum != 2772)
 	{
 		diff_half1 = (sum = 2772) / 2;
 		diff_half2 = (sum = 2772) / 2;

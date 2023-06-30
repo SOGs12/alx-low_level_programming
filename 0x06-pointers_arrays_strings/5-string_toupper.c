@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * string_toupper - Converts all lowercase character string to uppercase.
@@ -12,11 +11,9 @@ char *string_toupper(char *n)
 
 	while (n[i] != '\0')
 	{
-		if (n[i] >= 'a' && n[i] <= 'Z')
-		{
-			n[i] = n[i] - 32;
-		}
-		i++;
+	if (n[i] >= 'a' && n[i] <= 'Z')
+	n[i] -= 32;
+	i++;
 	}
 
 	return (n);

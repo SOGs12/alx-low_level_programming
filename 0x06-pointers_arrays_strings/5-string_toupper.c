@@ -3,7 +3,7 @@
 /**
  * string_toupper - Converts all lowercase character string to uppercase.
  * @n: The input string to be converted.
- * Return: The converted string.
+ * Return: n
  */
 char *string_toupper(char *n)
 {
@@ -14,7 +14,7 @@ char *string_toupper(char *n)
 	{
 		if (n[i] >= 'a' && n[i] <= 'Z')
 		{
-			n[i] = n[i] - 32; ('a' - 'Z)
+			n[i] = n[i] - 32;
 		}
 		i++;
 	}

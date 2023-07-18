@@ -7,7 +7,11 @@
  */
 int main(void)
 {
-	const char* file = __FILE__;
+
+	const char *file = __FILE__;
+
 	printf("%s\n", file);
+
 	return (0);
+
 }
